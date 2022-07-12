@@ -47,7 +47,7 @@ if (
   Book.setUI(bookList, itemList());
 }
 
-// ##################### Website Navigation
+// Website Navigation
 
 const navList = document.querySelector('#nav-list');
 const navAddNew = document.querySelector('#nav-add-new');
@@ -85,8 +85,7 @@ navContact.addEventListener('click', () => {
   contactSection.classList.remove('d-none');
 });
 
-// ################ Mobile navbar ############
-
+//Mobile navbar
 const hamburgerMenu = document.querySelector('.hamburger');
 const navBar = document.querySelector('nav');
 const navLinks = document.querySelectorAll('#nav-links li');
