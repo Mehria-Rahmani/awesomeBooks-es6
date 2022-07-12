@@ -86,6 +86,7 @@ navContact.addEventListener('click', () => {
 });
 
 //Mobile navbar
+
 const hamburgerMenu = document.querySelector('.hamburger');
 const navBar = document.querySelector('nav');
 const navLinks = document.querySelectorAll('#nav-links li');
